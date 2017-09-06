@@ -1,3 +1,10 @@
+# Hello
+# About
+# Education
+## BSc. Colorado School of Mines - Geological Engineering
+##
+# What I have done
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/twomack3/oldman/edit/master/index.md) to maintain and preview the content for your website in Markdown files.

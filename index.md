@@ -25,6 +25,7 @@
 ### ➢	Recent experience with C++, C# (MS – Unity) and Python
 ### ➢	Currently have a Secret Clearance and A+ and Sec+ certifications
 
+[Some of my work](https://github.com/twomack3/CodeExamples)
 
 ## Welcome to GitHub Pages
 

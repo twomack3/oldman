@@ -27,6 +27,7 @@
 ### ➢	Currently have a Secret Clearance and A+ and Sec+ certifications
 # Example of recent C# scripts
 ### Created for a variety Unity projects using Visual Studio
+### AttackAction.cs
 ```c#
 using System.Collections;
 using System.Collections.Generic;
@@ -164,7 +165,9 @@ public class AttackAction : Action
         }
     }
 }
-
+```
+### CanThrowDecision.cs
+```c#
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -178,7 +181,9 @@ public class CanThrowDecision : Decision
         return controller.GetComponent<PlayerMovement>().canThrow;
     }
 }
-
+```
+### Abstract class Decision.cs
+```c#
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -187,7 +192,9 @@ public abstract class Decision : ScriptableObject
 {
     public abstract bool Decide(PlayerStateController controller);
 }
-
+```
+### GetBAllAction.cs
+```c#
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -271,20 +278,9 @@ public class GetBallAction : Action
         //Debug.Log("GBA-GB "+ (ArenaMatchManager.BallStates)closestBall.GetComponent<CommonBallClass>().BallState +" "+ closestBall);
     }
 }
-
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-[CreateAssetMenu(menuName = "PluggableAI/Decisions/HasBall")]
-public class HasBallDecision : Decision
-{
-    public override bool Decide(PlayerStateController controller)
-    {
-        return controller.GetComponent<PlayerMovement>().hasBall;
-    }
-}
-
+```
+### State.cs
+```c#
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -325,18 +321,6 @@ public class State : ScriptableObject
             }
         }
     }
-}
-
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-[System.Serializable]
-public class Transition
-{
-    public Decision decision;
-    public State trueState;
-    public State falseState;
 }
 ```
 ### Visit [my reposirtory](https://github.com/twomack3/CodeExamples) for more examples of my code in other languages

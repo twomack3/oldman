@@ -23,6 +23,7 @@
 ### ➢	Designed and installed the LAN integrate the flight simulator, “science experiments”  and Mission control software into one unified experience 
 ### ➢	Created and maintained software applications for a variety of businesses
 ### ➢	Recent experience with C++, C# (MS – Unity) and Python
+
 ### ➢	Currently have a Secret Clearance and A+ and Sec+ certifications
 # Example of recent C# scripts
 ### Created for a variety Unity projects using Visual Studio
@@ -339,3 +340,4 @@ public class Transition
 }
 ```
 ### Visit [my reposirtory](https://github.com/twomack3/CodeExamples) for more examples of my code in other languages
+

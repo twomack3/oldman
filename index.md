@@ -25,8 +25,8 @@
 ### ➢	Recent experience with C++, C# (MS – Unity) and Python
 ### ➢	Currently have a Secret Clearance and A+ and Sec+ certifications
 # Example of recent C# scripts
-### I for a variety Unity projects using Visual Studio
-
+### Created for a variety Unity projects using Visual Studio
+```c#
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -337,3 +337,5 @@ public class Transition
     public State trueState;
     public State falseState;
 }
+```
+### Visit [my reposirtory](https://github.com/twomack3) for more examples of my code in other languages

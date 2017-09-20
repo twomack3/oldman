@@ -26,4 +26,7 @@
 
 ### ➢	Currently have a Secret Clearance and A+ and Sec+ certifications
 ### Visit [my reposirtory](https://github.com/twomack3/CodeExamples) for examples of my code in other languages
+####
+## Game Reviews
+#### [Gunship III by PNTK}(https://github.com/twomack3/twomack3.github.io/blob/master/CritiqueGunshipIII.md) 20 Sept. 2017
 

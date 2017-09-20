@@ -1,6 +1,6 @@
 # Game - Gunship III Combat Flight Simulator by PNTK Inc.
 * Free version Mac OSX 10.6.6 orgreater, vers. 3.7.9
-# Target Audience and Genera
+# Target Audience and Genre
 ### Intermediate Gamer
 ### Combat flight simulators - VietNam War
 ### Rated "Family Sharable"

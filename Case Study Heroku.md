@@ -9,7 +9,7 @@
 2.  Testing Environment Integration
 3.  Use in a Game Developing Scenerio
 ## Heroku Technology Offerings
-Heroku has created technologies to support the concept of continous integration or development.  The ability to make and test changes and mergem into a viable project.  This supports the agile methodologies and I find especially suited to Scrum techniques.
+Heroku has created technologies to support the concept of continous integration or development.  The ability to make and test changes and merg them into a viable project.  This supports the agile methodologies and I find especially suited to Scrum methods.
 ### Heroku Pipelines
 According to the Heroku web site, Heroku defines a pipeline as a group of Heroku apps that share a common code base.  Each app in a pipeline represents one of the following steps in a continuous delivery workflow:
 * Review - The developer creates a pull request and Heroku creates a 'review app' to allow the testing of the change.

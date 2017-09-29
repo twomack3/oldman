@@ -10,7 +10,7 @@
 #### Staging - User Validation/Play Test
 #### Staging - Training
 #### Staging - Final Beta
-### Client S: Windows 98/XP/NT, Linux
+### Client: Windows 98/XP/NT, Linux
 ### Server OS: Windows 98/XP/NT, Linux
 
 ## Game Engine

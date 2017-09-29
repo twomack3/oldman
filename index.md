@@ -29,5 +29,5 @@
 ## ➢ [Gunship III by PNTK](CritiqueGunshipIII.md) 20 Sept. 2017
 ## ➢ [X-Plane 11 by Laminar Research](Review X-Plane 11.md) 21 Sept. 2017
 # Product Reviews
-## ➢ [Heroku Case Study](Case Study Heroku.md) 22 Sept. 2017
+## ➢ [Heroku C(ontinous)I(ntegration)](Case Study Heroku.md) 22 Sept. 2017
 

@@ -6,7 +6,7 @@
 ### Not rated
 I will review X-Plan 11 by Laminar Research.  X-Plane 11 and Microsoft Flight Simulator X represent the two best realistic flight simulators available to the general public, as such I enjoyed playing it.  This type of flight simulator will not appeal to most game players as they may find it lacking in action for periods of time.  I greatly appreciated the realism of the graphics both inside and out side (terrain) the cockpit.  I flew the Cessna 172, a plane I have actual experience in, and found reactions to user input as shown by the instruments and out of cockpit displays completely accurate.  This represents the closest I can come to flying a real plane as I can afford.
 
-#Test-able aspects of this game.
+# Test-able aspects of this game.
 
 I found X-Plane 11 to excel in the following three testable aspects of the game: Correct display of flight instruments in response to user input, realistic depictions of views from the cockpit and changing the flight characteristics in response to changing atmospheric conditions, such as wind, altitude, temperature and humidity.
 

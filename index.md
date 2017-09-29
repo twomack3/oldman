@@ -25,11 +25,11 @@
 ### ➢	Recent experience with C++, C# (MS – Unity) and Python
 
 ### ➢	Currently have a Secret Clearance and A+ and Sec+ certifications
-### Visit [my reposirtory](https://github.com/twomack3/CodeExamples) for examples of my code in other languages
+### Visit [my reposirtory](CodeExamples) for examples of my code in other languages
 ###
 # Game Reviews
-## ➢ [Gunship III by PNTK](https://github.com/twomack3/twomack3.github.io/blob/master/CritiqueGunshipIII.md) 20 Sept. 2017
-## ➢ [X-Plane 11 by Laminar Research](https://github.com/twomack3/twomack3.github.io/blob/master/Review%20X-Plane%2011.md) 21 Sept. 2017
+## ➢ [Gunship III by PNTK](CritiqueGunshipIII.md) 20 Sept. 2017
+## ➢ [X-Plane 11 by Laminar Research](X-Plane%2011.md) 21 Sept. 2017
 # Product Reviews
-## ➢ [Heroku Case Study](https://github.com/twomack3/twomack3.github.io/blob/master/Case%20Study%20Heroku.md) 22 Sept. 2017
+## ➢ [Heroku Case Study](Heroku.md) 22 Sept. 2017
 

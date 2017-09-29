@@ -25,11 +25,11 @@
 ### ➢	Recent experience with C++, C# (MS – Unity) and Python
 
 ### ➢	Currently have a Secret Clearance and A+ and Sec+ certifications
-### Visit [my reposirtory](CodeExamples) for examples of my code in other languages
+### Visit [my reposirtory](Portfolio.md) for examples of my code in other languages
 ###
 # Game Reviews
 ## ➢ [Gunship III by PNTK](CritiqueGunshipIII.md) 20 Sept. 2017
 ## ➢ [X-Plane 11 by Laminar Research](X-Plane%2011.md) 21 Sept. 2017
 # Product Reviews
-## ➢ [Heroku Case Study](Heroku.md) 22 Sept. 2017
+## ➢ [Heroku Case Study](Case%Study%Heroku.md) 22 Sept. 2017
 

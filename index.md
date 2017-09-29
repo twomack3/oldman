@@ -8,7 +8,7 @@
 ### To use my skills, education and experience to perform the duties of a CAD Drafter /programmer in a highly competent and professional manner as a step to becoming a simulator architect/engineer.
 # Education
 ## BSc. Colorado School of Mines - Geological Engineering
-## AAS. Nortwest Vista college
+## AAS. Nortwest Vista college (Expected May 2018)
 # What I have done
 ## MANAGEMENT EXPERIENCE
 ### ➢	Project manager for the creation of a “Space Shuttle” motion based simulator for a museum’s space camp program, 

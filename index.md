@@ -30,4 +30,7 @@
 ## ➢ [X-Plane 11 by Laminar Research](Review X-Plane 11.md) 21 Sept. 2017
 # Product Reviews
 ## ➢ [Heroku C(ontinous)I(ntegration)](Case Study Heroku.md) 22 Sept. 2017
+# Document Templates
+## ➢ [Game Review](Game_Critique_Template.md) 03 Oct. 2017
+## ➢ [Game Test Plan](Game_Test_Plan_Template.md) 03 Oct. 2017
 

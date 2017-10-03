@@ -7,7 +7,7 @@
 ### Test Objectives (State objectives to be accomplished by testing)
 ### Acceptance Criteria (Estimated number of defect or internal test acceptance criteria)
 ### References (List any reference documents)
-
+####
 ## Plan
 ### Test Description (Briefly describe what is being tested and any inputs needed for testing)
 ### Test Team (Who is on the team and what is their role/assignment)
@@ -17,7 +17,7 @@
 #### Resource requirements, equipment, software/hardware, tester with special skill set○Testing Materials/Test Tools
 #### Documentation you will use or produce or testing tools used○Test Training
 #### Personnel training, types of training/training staff- could include acceptance testing or playtesting
-
+####
 ## Specifications and Evaluations
 ### Requirement Specifications (Business Rules/Functions)
 #### List any business requirements (list) (Software/Game Functions)

@@ -29,10 +29,19 @@ The player will get represented by a glowing ball fire (GDD) and it will have th
 2.  Jump up to a (relative) height determined by the heat of the ball. The player will rise rapidly up to their maximum (relative) height, and then slowly descend.
 3.  Burning blocks occurs when the player has enough heat to ignite a block and pushes into it for a short time..
 4.  Slamming happens after the the player has jumped and causes the fireball to crash down on the first surface beneath it.  This will quickly starrt fires in a wide area slightly hotter than the player’s default temperature.
-
-|Test Suite     |Button |Function                                               |
+#### Testing the movement controls as defined in the GDD.
+|Test Suite     |Button    |Function                                               |
+|---------------|:--------:|-------------------------------------------------------|
+|Basic Controls |X(0)   |Jump: The fireball jumps up to its maximum height, then begins to drift slowly down towards the ground.|
+|Basic Controls |O(1) or [](2)|Slam: Crash down to ground rapidly and then explode, igniting nearby blocks. If already on the ground, just explodes. |
+|Basic Controls | ^(3) |Jump and Top Down View: The fireball jumps, but the camera view tilts to give a top down view. Press again to cancel top down view. (Toggles top down view). |
+|Basic Controls | > (Pause)| Pause/Map |
+|Basic Controls | (reset) | Hold for 0.5 seconds to begin the current field again |
 |---------------|:-----:|------------------------------------------------|
-|Basic Controls |X      |The fireball jumps up to its maximum height, then begins to drift slowly down towards the ground.|
+|Advanced Controls | L1 |Roll Left: Move Sideways to Left i.e. strafe left |
+|Advanced Controls | R1 |Roll Right: Move Sideways to Right i.e. strafe right |
+|Advanced Controls | L2 |Turn Left: Turn 90 degrees left |
+|Advanced Controls | R2 |Turn Right: Turn 90 degrees right |
 
 
 ## For more information on the Fireball game click [here](https://www.gamasutra.com/view/feature/130127/design_document_play_with_fire.php)

@@ -22,11 +22,17 @@ Test the following subsystems:
 2.  Temperature which controls the the ignitions of blocks in the world abnd how the fire spreads between blocks
 3.  Gravity which concerns the collapse of objects and blocks as result for the fires.
 
-We paln to run the following test cases on each build teseted:
-### Acceptance Criteria (Estimated number of defect or internal test acceptance criteria)
-These tests will have an overall acceptance criteria of 70% for the Alpha build(s) and 90% for the Beta Builds
-### References (List any reference documents)
-Game Design document in the Google Docs folder: https://drive.google.com/drive/folders/0B3sX0N3yT3LucVBWTEFzbGQwbUE
-Technical Design Document in the Google Docs folder: https://drive.google.com/drive/folders/0B3sX0N3yT3LucVBWTEFzbGQwbUE
-## Plan
+### Testing will occur on a PS2 gaming console with standard configuration
+### Testing the Avatar subsystem
+The player will get represented by a glowing ball fire (GDD) and it will have the follwoing abilities:
+1.  Move around the environment. The player turns left and right, and pushes forward to move (relative controls).
+2.  Jump up to a (relative) height determined by the heat of the ball. The player will rise rapidly up to their maximum (relative) height, and then slowly descend.
+3.  Burning blocks occurs when the player has enough heat to ignite a block and pushes into it for a short time..
+4.  Slamming happens after the the player has jumped and causes the fireball to crash down on the first surface beneath it.  This will quickly starrt fires in a wide area slightly hotter than the player’s default temperature.
+
+|Test Suite     |Button |Function                                               |
+|---------------|:-----:|------------------------------------------------|
+|Basic Controls |X      |The fireball jumps up to its maximum height, then begins to drift slowly down towards the ground.|
+
+
 ## For more information on the Fireball game click [here](https://www.gamasutra.com/view/feature/130127/design_document_play_with_fire.php)

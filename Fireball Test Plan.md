@@ -37,11 +37,49 @@ The player will get represented by a glowing ball fire (GDD) and it will have th
 |Basic Controls | ^(3) |Jump and Top Down View: The fireball jumps, but the camera view tilts to give a top down view. Press again to cancel top down view. (Toggles top down view). |
 |Basic Controls | > (Pause)| Pause/Map |
 |Basic Controls | (reset) | Hold for 0.5 seconds to begin the current field again |
-|---------------|:-----:|------------------------------------------------|
 |Advanced Controls | L1 |Roll Left: Move Sideways to Left i.e. strafe left |
 |Advanced Controls | R1 |Roll Right: Move Sideways to Right i.e. strafe right |
 |Advanced Controls | L2 |Turn Left: Turn 90 degrees left |
 |Advanced Controls | R2 |Turn Right: Turn 90 degrees right |
+#### Test the Jump profile
+|Action       |Expected result                                                        |
+|-------------|---------------------------------------------------------------------------------------------------------------------|
+|Start at any height| The ground (0 height) or on a platform (>0 height). 
+|Press Jump to begin | The fireball goes up in the air by +x units as a function of current temperature. Jump with Triangle, gives a top down view| 
+|Drifting begins| The player descends at the rate of about 1 unit per second. The Triangle to toggle between a top down view and a regular view|
+|Pick Target |The shadow of the fireball shows the impact point (target). The shadow of the fireball always shows precisely where the player will land if they press Slam |
+|Slam by pressing the correct control| The fireball descends almost instantly to the shadow-point and explodes – possibly igniting everything at this point. The slam fires have a temperature one higher than the avatar’s current temperature|
+#### Test Slam profile
+Whenever the player slams, they raise every block in a 3 unit spherical radius of the point of impact (or point of explosion if they were on the ground) up to one higher than their current temperature. (The colour of the explosion effect should correspond to the higher temperature). 
+If this temperature is high enough to ignite a block, the block begins burning. 
+### Testing the Temperature subsystem
+### Testing the Gravity subsytem
+### Testing Goal conditions
+### Testing Chains
+### Testing Block System
+All game should consist of one or more of the folling block types with the following charasteristics:
+Note 
+No block may ever be at a heat level higher than that shown in its Burn column or Melt column (whichever is higher). 
 
+|Block Type| Block Colour |Melt Burn | Burn Time | Ignition Time |
+|:--------:|:--------:|:--------:|:--------:|:--------:|
+|1: Leaf| Green| No |1: Yellow Hot |10 seconds |0.1 seconds| 
+|2: Wood| Brown| No |2: Orange Hot |15 seconds |1 second| 
+|3: Coal| Black| No |3: Red Hot |60 seconds |1 second| 
+|4: Plastic| Pink| 2: Orange Hot |3: Red Hot |15 seconds |1 second| 
+|5: Metal| Blue| 4: Blue Hot |5: White Hot |90 seconds |1 second| 
+|6: Stone| Grey| 5: White Hot |No| –| –| 
+|7: Fire| Red |No |No |– |– |
 
+The following table shows the tints of blocks when they are melted or burning: 
+
+|Block Type |Block Colour |Melted Texture |Meted Tint |Burning Texture |Burning Tint |
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+|Leaf |Green |– |– |Burning Leaves |Yellow |
+|Wood |Brown |– |– |Burning Wood |Orange |
+|Coal |Black |– |– |Hot Coals |Red |
+|Plastic |Orange |Molten Plastic |Orange |Burning Plastic |Red |
+|Metal |Blue |Molten Metal |Blue |White-hot |Metal |White |
+|Stone |Grey |Lava |White |– |– |
+ 
 ## For more information on the Fireball game click [here](https://www.gamasutra.com/view/feature/130127/design_document_play_with_fire.php)

@@ -142,7 +142,8 @@ This consists of challenging fields which may require good reactions and arcade 
 All three paths are arranged to radiate from a central point. The Options area exists in the fourth position.
 The player begins facing the first object in the Fun Path.
 ### Progression Conditions
-Verify the player advances according teh following condidions:
+Verify the player advances according teh following condidions
+
 |Stage |Fun Path |Puzzle Path |Challenge Path|
 |:--------:|:--------:|:--------:|:--------:|
 |01 |Always Available |Always Available |Always Available|
@@ -163,7 +164,8 @@ Verify the player advances according teh following condidions:
 |15 |5,000,000 Ash |Clear Puzzle 14 |58 Medals|
 |16 |10,000,000 Ash |Clear Puzzle 15 |60 Medals|
 ### Options
-Verify the following options exist on the Options page and work as expected:
+Verify the following options exist on the Options page and work as expected
+
 |Option |Effect |Enable Message |Disable Message|
 |----------|----------|----------|----------|
 |SelectReminder |Show Select Reminder in Message Bar |Burn me to Hide Select Reminder |Burn me to Show Select Reminder|

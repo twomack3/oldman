@@ -4,7 +4,7 @@ Time Glitch
 ## Game Type
 Third Person 3D Plat-former violent game
 ## Platform
-This game plays on the master race (PCs).
+This game plays on the master race (Windows based PCs).
 ## Game Rating
 A non violent game for the intermediate gamer
 ## Publisher
@@ -12,7 +12,7 @@ A non violent game for the intermediate gamer
 ## Developer
 bad.asset.games 
 ## Publishing Date
-May 2017
+May 2013
 # Synopsis
 The player takes on the role of Dr. Alexis Stunden, who utilizes time manipulation technology, the Time Gun, to restore balance to her spacetime continuum.
 

@@ -4,7 +4,7 @@ Time Glitch
 ## Game Type
 Third Person 3D Plat-former violent game
 ## Platform
-What systems do they play on besides the PC master race?
+This game plays on the master race (PCs).
 ## Game Rating
 A non violent game for the intermediate gamer
 ## Publisher

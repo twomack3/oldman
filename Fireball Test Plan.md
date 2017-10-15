@@ -97,6 +97,7 @@ The following table shows the tints of blocks when they are melted or burning:
 Verify the player can access each of the three paths: Fun, Puzzle and Challenge using the central hub system.
 Verify the player earns the correct amount of ash
 Verify the chain system works and will reward the player according to the following:
+
 |Medal |Combo |Target Percentage? |All Fields Ash Clear?|
 |:----:|:----:|:-----------------:|:-------------------:|
 |Silver| 50-99%| No|

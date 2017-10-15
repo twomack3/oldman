@@ -32,7 +32,7 @@
 # Product Reviews
 ## ➢ [Heroku C(ontinous)I(ntegration)](Case Study Heroku.md) 22 Sept. 2017
 # Game Test Plans
-## [Test Plan for the game Fireball](Fireball Test Plan.md) 15 Oct. 2017
+## ➢ [Test Plan for the game Fireball](Fireball Test Plan.md) 15 Oct. 2017
 # Document Templates
 ## ➢ [Game Review](Game_Critique_Template.md) 03 Oct. 2017
 ## ➢ [Game Test Plan](Game_Test_Plan_Template.md) 03 Oct. 2017

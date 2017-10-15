@@ -1,16 +1,16 @@
 
-# Test Plan for: Fireball by international hobo
+# Test Plan for: Fireball by International Hobo
 Fireball and the Fireball GDD Copyright © 2005 International Hobo Ltd 14
 
 ## Summary Information
-From the Frireball game design document (GDD): "Fireball is a budget game for PS2. The player controls a ball of fire, and traverses a landscape made of blocks of different materials. As the player sets fire to these blocks, they grow hotter, and can set fire to more and more different types of blocks. The fireball the player controls can also rise up in height and the hotter the player gets, the higher they can jump in this fashion.
+From the Fireball [game design document (GDD)](https://www.gamasutra.com/view/feature/130127/design_document_play_with_fire.php): "Fireball is a budget game for PS2. The player controls a ball of fire, and traverses a landscape made of blocks of different materials. As the player sets fire to these blocks, they grow hotter, and can set fire to more and more different types of blocks. The fireball the player controls can also rise up in height and the hotter the player gets, the higher they can jump in this fashion.
 
 On each field (level) the player has an ultimate goal of igniting the torch (brazier) and thus clearing the field – but the torch is generally positioned at a high point and out of reach. The player must use a combination of platform skills and dynamic environmental features (for instance, by burning the supports under the torch down to the ground) in order to clear the field.
 
 Simple, clean cut graphics and controls combine to give an easy to learn but engaging play experience"
 
 ### Environment/User Community
-According the GDD This game will come in two different version aimed at two different markets.  The Fireball game will target the casual gamer or impulse buyer, while the Hidama will target the hard core gamern with its unique game play.
+According the GDD This game will come in two different version aimed at two different markets.  The Fireball game will target the casual gamer or impulse buyer, while the Hidama will target the hard core gamer with its unique game play.
 
 ### Test Objectives:
 Test the subsystems against the GDD stated desired player experience of:
@@ -20,16 +20,16 @@ Test the subsystems against the GDD stated desired player experience of:
 4.  Exploration of small environments.
 Test the following subsystems:
 1.  Avatar which controls the player's ability to move around the landscape
-2.  Temperature which controls the the ignitions of blocks in the world abnd how the fire spreads between blocks
+2.  Temperature which controls the the ignitions of blocks in the world and how the fire spreads between blocks
 3.  Gravity which concerns the collapse of objects and blocks as result for the fires.
 
 ### Testing will occur on a PS2 gaming console with standard configuration
 ### Testing the Avatar subsystem
-The player will get represented by a glowing ball fire (GDD) and it will have the follwoing abilities:
+The player will get represented by a glowing ball fire (GDD) and it will have the following abilities:
 1.  Move around the environment. The player turns left and right, and pushes forward to move (relative controls).
 2.  Jump up to a (relative) height determined by the heat of the ball. The player will rise rapidly up to their maximum (relative) height, and then slowly descend.
 3.  Burning blocks occurs when the player has enough heat to ignite a block and pushes into it for a short time..
-4.  Slamming happens after the the player has jumped and causes the fireball to crash down on the first surface beneath it.  This will quickly starrt fires in a wide area slightly hotter than the player’s default temperature.
+4.  Slamming happens after the the player has jumped and causes the fireball to crash down on the first surface beneath it.  This will quickly start fires in a wide area slightly hotter than the player’s default temperature.
 #### Testing the movement controls as defined in the GDD.
 |Test Suite     |Button    |Function                                               |
 |---------------|:--------:|-------------------------------------------------------|
@@ -51,29 +51,29 @@ The player will get represented by a glowing ball fire (GDD) and it will have th
 |Pick Target |The shadow of the fireball shows the impact point (target). The shadow of the fireball always shows precisely where the player will land if they press Slam |
 |Slam by pressing the correct control| The fireball descends almost instantly to the shadow-point and explodes – possibly igniting everything at this point. The slam fires have a temperature one higher than the avatar’s current temperature|
 #### Test Slam profile
-Whenever the player slams, they raise every block in a 3 unit spherical radius of the point of impact (or point of explosion if they were on the ground) up to one higher than their current temperature. (The colour of the explosion effect should correspond to the higher temperature). 
+Whenever the player slams, they raise every block in a 3 unit spherical radius of the point of impact (or point of explosion if they were on the ground) up to one higher than their current temperature. (The color of the explosion effect should correspond to the higher temperature). 
 If this temperature is high enough to ignite a block, the block begins burning. 
 ### Testing the Temperature subsystem
-Verify the player gains temperatruer under the following conditions:
-1. The avatar slams a materia and ignites it
-2. The avatar touches a burnign block with a hight temeperature
-3. Verify the avatr does not loose temperature while on the current field
-### Testing the Gravity subsytem
+Verify the player gains temperature under the following conditions:
+1. The avatar slams a material and ignites it
+2. The avatar touches a burning block with a hight temperature
+3. Verify the avatar does not loose temperature while on the current field
+### Testing the Gravity subsystem
 Verify the gravity in the game has a value of 10m/sec/sec in a negative y direction.
 ### Testing Goal conditions
 1. Clear field by igniting symbolic brazier item
 2. Gain score by building chains
 ### Testing Chains
 The game defines chains as multiple blocks burning at the same time.
-Verify the game displays the chain counter and changes font size as a funcion of chain size
+Verify the game displays the chain counter and changes font size as a function of chain size
 ### Field Reset
-Vwerify field correctly resetw within .5 seconds.
+Verify field correctly resets within .5 seconds.
 ### Testing Block System
-All game should consist of one or more of the folling block types with the following charasteristics:
+All game should consist of one or more of the following block types with the following characteristics:
 Note 
 No block may ever be at a heat level higher than that shown in its Burn column or Melt column (whichever is higher). 
 
-|Block Type| Block Colour |Melt Burn | Burn Time | Ignition Time |
+|Block Type| Block Color |Melt Burn | Burn Time | Ignition Time |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
 |1: Leaf| Green| No |1: Yellow Hot |10 seconds |0.1 seconds| 
 |2: Wood| Brown| No |2: Orange Hot |15 seconds |1 second| 
@@ -94,14 +94,14 @@ The following table shows the tints of blocks when they are melted or burning:
 |Metal |Blue |Molten Metal |Blue |White-hot |Metal |White |
 |Stone |Grey |Lava |White |– |– |
 ## Test the game structure
-Verify the player can acces each of the three paths: Fun, Puzzel and Challenge using the central hub system.
-Verify the player eausn the correct amount of ash
-Verify the chain system works and will reoard the player according to the following:
+Verify the player can access each of the three paths: Fun, Puzzle and Challenge using the central hub system.
+Verify the player earns the correct amount of ash
+Verify the chain system works and will reward the player according to the following:
 |Medal |Combo |Target Percentage? |All Fields Ash Clear?|
 |:----:|:----:|:-----------------:|:-------------------:|
 |Silver| 50-99%| No|
 |Gold |100% No|
-Verify the Ash earned gets modified by teh medals earned according tothe following:
+Verify the Ash earned gets modified by the medals earned according Hyper-objects following:
 1. If they scored a Silver Medal, this icon is shown, and the Ash total is multiplied by 2 (x2 is shown).
 2. If they scored a Gold Medal, this icon is shown, and the Ash total is multiplied by 3 (x3 is shown). When a Gold Medal is awarded, a Silver medal is automatically awarded as well.
 ### Front End
@@ -111,7 +111,7 @@ The game front end operates using the main game engine. The player moves around 
 objects (which are kept well-spaced), and when near an object, text appears indicating what
 will happen if they burn that object.
 This saves developing a separate front end.
-#### Quest Blocks (Hyperobjects)
+#### Quest Blocks (Hyper-objects)
 The Hub field consists of a number of blocks, which are regular game objects – but that cause
 fields or Quests to be run when they are burned by the player. In effect, each block is a menu
 option that the player selects by moving to it and burning it.
@@ -129,7 +129,7 @@ The next Quest to be unlocked in each Path is displayed as a single Stone Block.
 cannot be burned, and so the Quest cannot be played.
 Above the block is the description of how the Quest is unlocked – see Section 4.8 for details.
 #### Ash Total
-While on the Hub field, a large, does the game display the players total Ash at the bottom of the screen in agraphically pleasing manor
+While on the Hub field, a large, does the game display the players total Ash at the bottom of the screen in a graphically pleasing manor
 #### The Hub
 Can the player access the main game functionality via the hub map, which consists of a set of blocks that fit into three paths:
 ##### Fun Path
@@ -142,7 +142,7 @@ This consists of challenging fields which may require good reactions and arcade 
 All three paths are arranged to radiate from a central point. The Options area exists in the fourth position.
 The player begins facing the first object in the Fun Path.
 ### Progression Conditions
-Verify the player advances according teh following condidions
+Verify the player advances according the following conditions
 
 |Stage |Fun Path |Puzzle Path |Challenge Path|
 |:--------:|:--------:|:--------:|:--------:|

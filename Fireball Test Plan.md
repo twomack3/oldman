@@ -1,5 +1,6 @@
 
 # Test Plan for: Fireball by international hobo
+Fireball and the Fireball GDD Copyright © 2005 International Hobo Ltd 14
 
 ## Summary Information
 From the Frireball game design document (GDD): "Fireball is a budget game for PS2. The player controls a ball of fire, and traverses a landscape made of blocks of different materials. As the player sets fire to these blocks, they grow hotter, and can set fire to more and more different types of blocks. The fireball the player controls can also rise up in height and the hotter the player gets, the higher they can jump in this fashion.
@@ -53,9 +54,20 @@ The player will get represented by a glowing ball fire (GDD) and it will have th
 Whenever the player slams, they raise every block in a 3 unit spherical radius of the point of impact (or point of explosion if they were on the ground) up to one higher than their current temperature. (The colour of the explosion effect should correspond to the higher temperature). 
 If this temperature is high enough to ignite a block, the block begins burning. 
 ### Testing the Temperature subsystem
+Verify the player gains temperatruer under the following conditions:
+1. The avatar slams a materia and ignites it
+2. The avatar touches a burnign block with a hight temeperature
+3. Verify the avatr does not loose temperature while on the current field
 ### Testing the Gravity subsytem
+Verify the gravity in the game has a value of 10m/sec/sec in a negative y direction.
 ### Testing Goal conditions
+1. Clear field by igniting symbolic brazier item
+2. Gain score by building chains
 ### Testing Chains
+The game defines chains as multiple blocks burning at the same time.
+Verify the game displays the chain counter and changes font size as a funcion of chain size
+### Field Reset
+Vwerify field correctly resetw within .5 seconds.
 ### Testing Block System
 All game should consist of one or more of the folling block types with the following charasteristics:
 Note 
@@ -81,5 +93,82 @@ The following table shows the tints of blocks when they are melted or burning:
 |Plastic |Orange |Molten Plastic |Orange |Burning Plastic |Red |
 |Metal |Blue |Molten Metal |Blue |White-hot |Metal |White |
 |Stone |Grey |Lava |White |– |– |
- 
+## Test the game structure
+Verify the player can acces each of the three paths: Fun, Puzzel and Challenge using the central hub system.
+Verify the player eausn the correct amount of ash
+Verify the chain system works and will reoard the player according to the following:
+|Medal |Combo |Target Percentage? |All Fields Ash Clear?|
+|:----:|:----:|:-----------------:|:-------------------:|
+|Silver| 50-99%| No|
+|Gold |100% No|
+Verify the Ash earned gets modified by teh medals earned according tothe following:
+1. If they scored a Silver Medal, this icon is shown, and the Ash total is multiplied by 2 (x2 is shown).
+2. If they scored a Gold Medal, this icon is shown, and the Ash total is multiplied by 3 (x3 is shown). When a Gold Medal is awarded, a Silver medal is automatically awarded as well.
+### Front End
+Verify the game meets the following structure:
+#### Overview
+The game front end operates using the main game engine. The player moves around between
+objects (which are kept well-spaced), and when near an object, text appears indicating what
+will happen if they burn that object.
+This saves developing a separate front end.
+#### Quest Blocks (Hyperobjects)
+The Hub field consists of a number of blocks, which are regular game objects – but that cause
+fields or Quests to be run when they are burned by the player. In effect, each block is a menu
+option that the player selects by moving to it and burning it.
+The blocks displayed in the Hub will be either Leaf, Wood or Stone.
+#### Unlocked Quests
+Any Quest that has been unlocked is displayed as a single Leaf Block.
+This is exactly as is currently implemented
+#### Completed Quests
+Any Quest that has been completed is displayed as a single Wood Block.
+This means:
+1. Players won’t trigger these by mistake, as they must Slam to burn a Wood block
+2. Players can immediately see which Quests they have completed
+4.4.5 Next Quests
+The next Quest to be unlocked in each Path is displayed as a single Stone Block. Clearly, this
+cannot be burned, and so the Quest cannot be played.
+Above the block is the description of how the Quest is unlocked – see Section 4.8 for details.
+#### Ash Total
+While on the Hub field, a large, does the game display the players total Ash at the bottom of the screen in agraphically pleasing manor
+#### The Hub
+Can the player access the main game functionality via the hub map, which consists of a set of blocks that fit into three paths:
+##### Fun Path
+Consisting of easy and entertaining fields. The Fun path advances from the acquisition of Ash.
+##### Puzzle Path
+Consisting of challenging but cerebral fields, which don’t require fast reactions or arcade control skills to master. The Puzzle path advances from the completion of Quests.
+##### Challenge Path
+This consists of challenging fields which may require good reactions and arcade control skills to master. The hardest fields exist in this path. This path will advance through Medals.
+
+All three paths are arranged to radiate from a central point. The Options area exists in the fourth position.
+The player begins facing the first object in the Fun Path.
+### Progression Conditions
+Verify the player advances according teh following condidions:
+|Stage |Fun Path |Puzzle Path |Challenge Path|
+|:--------:|:--------:|:--------:|:--------:|
+|01 |Always Available |Always Available |Always Available|
+|02 |500 Ash |Clear Puzzle 1 |1 Medal|
+|03 |1,000 Ash |Clear Puzzle 2 |2 Medals|
+|04 |5,000 Ash |Clear Puzzle 3 |4 Medals|
+|05 |10,000 Ash |Clear Puzzle 4 |6 Medals|
+|06 |15,000 Ash |Clear Puzzle 5 |10 Medals|
+|07 |20,000 Ash |Clear Puzzle 6 |16 Medals|
+|08 |25,000 Ash |Clear Puzzle 7 |20 Medals|
+|09 |50,000 Ash |Clear Puzzle 8 |30 Medals|
+|10 |100,000 Ash |Clear Puzzle 9 |40 Medals|
+|Credits |Clear Fun 1 to 10 |Clear Puzzle 10 |Clear Challenge 1 to 10|
+|11 |200,000 Ash |Clear Puzzle 10 |44 Medals|
+|12 |500,000 Ash |Clear Puzzle 11 |48 Medals|
+|13 |1,000,000 Ash |Clear Puzzle 12 |52 Medals|
+|14 |2,000,000 Ash |Clear Puzzle 13 |56 Medals|
+|15 |5,000,000 Ash |Clear Puzzle 14 |58 Medals|
+|16 |10,000,000 Ash |Clear Puzzle 15 |60 Medals|
+### Options
+Verify the following options exist on the Options page and work as expected:
+|Option |Effect |Enable Message |Disable Message|
+|----------|----------|----------|----------|
+|SelectReminder |Show Select Reminder in Message Bar |Burn me to Hide Select Reminder |Burn me to Show Select Reminder|
+|FieldNames |Show Field Names |Burn me to Enable Field Names |Burn me to Disable Field Names|
+|AlternateControls |Changes to the alternative control scheme |Burn me for Alternate Controls |Burn me for Normal Controls|
+|Louder |Turns up volume |Burn me for Louder Volume |-|
+|Softer |Turns down volume |Burn me for Quieter Volume| |
 ## For more information on the Fireball game click [here](https://www.gamasutra.com/view/feature/130127/design_document_play_with_fire.php)

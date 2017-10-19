@@ -61,7 +61,7 @@
 
 ## Overall Test Status:
 This test passed wityh an 91% success. the test could not change the music volume only turn it on or off
-Submitted bug report # 212 & 313 submmitted on this problem Unable to turn off music
+Submitted bug report # 212 & 213 submmitted on this problem Unable to turn off music
 Submitted suggestion on UI redesign for Music controls too confusing for tester
 
 

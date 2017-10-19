@@ -36,6 +36,7 @@
    c. Music Driver starts, plays and stops the music and sdjusts volume as required
   4. Make sure that the game correctly handels user input.
   5. Make sure the tester can see the results of their input on the display.
+  6. Make suer user can save and play saved game
   This test will consider an 80% pass as successful
 * Pre-Test Conditions:
   * This test requires one PC running Windows 98 
@@ -52,7 +53,7 @@
 | 7 |Test the display |Does the game display correctly | √|					
 | 8 |Enter correct key combinations |Does the display show the correct data | √|			
 | 9 |Enter incorrect key combinations |Did the game handle the error condition without crashing | √|	
-| 10 |Move mouse to various fields|Did the fields get selected as expected| √ |
+| 10 |Save the game|Able to save teh game and restart saved game| √ |
 
 ## Overall Test Status:
 This test passed wityh an 90% success. the test could not change the music volume only turn it on or off

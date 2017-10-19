@@ -51,7 +51,7 @@
 | 2 |Run batch file to write into game file |Attempt should give an error and not write | √|			
 | 3 |Select the menus |verify selected menu loads correctly | √|			
 | 4 |Graphics |Does the display have the correct colors, fonts and resolution |√ |
-| 5 |Turn off and on the music |The usic turns off and on as desired | |
+| 5 |Turn off and on the music |The usic turns off and on as desired | √|
 | 6 |Change the music volume|Volume changed as expected| failed |
 | 7 |Test the display |Does the game display correctly | √|			
 | 8 |Timer |did the a time out oocur when not used for ten minutes | √|			

@@ -47,17 +47,17 @@
 ## Test Steps: 
 | # | Description | Expected Result | Check (√) |
 | --- | --- | --- | --- |
-| 1 |Double Click the PLEX icon| Game started without errors, lockup or unintended exit | |			
-| 2 |Run batch file to write into game file |Attempt should give an error and not write | |			
-| 3 |Select the menus |verify selected menu loads correctly | |			
-| 4 |Graphics |Does the display have the correct colors, fonts and resolution | |
+| 1 |Double Click the PLEX icon| Game started without errors, lockup or unintended exit | √|			
+| 2 |Run batch file to write into game file |Attempt should give an error and not write | √|			
+| 3 |Select the menus |verify selected menu loads correctly | √|			
+| 4 |Graphics |Does the display have the correct colors, fonts and resolution |√ |
 | 5 |Turn off and on the music |The usic turns off and on as desired | |
-| 6 |Change the music volume|Volume changed as expected|
-| 7 |Test the display |Does the game display correctly | |			
-| 8 |Timer |did the a time out oocur when not used for ten minutes | |			
-| 9 |Database |Did the correct data load from the server witout errors | |			
-| 10 |Enter correct key combinations |Does the display show the correct data | |			
-| 11 |Enter incorrect key combinations |Did the game handle the error condition without crashing | |			
+| 6 |Change the music volume|Volume changed as expected| failed |
+| 7 |Test the display |Does the game display correctly | √|			
+| 8 |Timer |did the a time out oocur when not used for ten minutes | √|			
+| 9 |Database |Did the correct data load from the server witout errors | √|			
+| 10 |Enter correct key combinations |Does the display show the correct data | √|			
+| 11 |Enter incorrect key combinations |Did the game handle the error condition without crashing | √|			
 
 ## Overall Test Status:
 This test passed wityh an 91% success. the test could not change the music volume only turn it on or off

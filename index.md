@@ -33,6 +33,10 @@
 ## ➢ [Heroku C(ontinous)I(ntegration)](Case Study Heroku.md) 22 Sept. 2017
 # Game Test Plans
 ## ➢ [Test Plan for the game Fireball](Fireball Test Plan.md) 15 Oct. 2017
+# Game Test Cases
+## ➢ [PLEX Test Case 01](PLEX_Test_Case_01.md) - Build mode
+## ➢ [PLEX Test Case 02](PLEX_Test_Case_02.md) - Story mode
+## ➢ [PLEX Test Case 03](PLEX_Test_Case_03.md) - Server for Build mode
 # Document Templates
 ## ➢ [Game Review](Game_Critique_Template.md) 03 Oct. 2017
 ## ➢ [Game Test Plan](Game_Test_Plan_Template.md) 03 Oct. 2017

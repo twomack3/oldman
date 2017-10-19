@@ -34,17 +34,17 @@
 ## Test Steps: 
 | # | Description | Expected Result | Check (√) |
 | --- | --- | --- | --- |
-| 1 | Start Server PLEX application| Loads with our error - allows connections| |			
-| 2 | User creates profile on Windows 98| Profile created with errors or lag| |			
-| 3 | User creates profile on Windows XP| Profile created with errors or lag| |			
-| 4 | User creates profile on Windows NT| Profile created with errors or lag| |			
-| 5 | User creates profile on Ubuto Linux Profile created with errors or lag| |			
-| 6 | User creates profile on Red Hat Linux| Profile created with errors or lag| |			
-| 7 | All Users login at the same time| Logins allowed with out lag| |			
-| 8 | User uses invalid password| Login fails| |			
-| 9 | User attempts login without a profile| Login fails| |			
-| 10 | All user play game at different levels| Game plays normally with no down grading of response time| |
-| 11 | All Users quit the game and restart| Require User name and password before allowing game play| |			
+| 1 | Start Server PLEX application| Loads with our error - allows connections| √|			
+| 2 | User creates profile on Windows 98| Profile created with errors or lag| √|			
+| 3 | User creates profile on Windows XP| Profile created with errors or lag| √|			
+| 4 | User creates profile on Windows NT| Profile created with errors or lag| √|			
+| 5 | User creates profile on Ubuto Linux Profile created with errors or lag| v|			
+| 6 | User creates profile on Red Hat Linux| Profile created with errors or lag| √|			
+| 7 | All Users login at the same time| Logins allowed with out lag|Windows 98 failed|			
+| 8 | User uses invalid password| Login fails| √|			
+| 9 | User attempts login without a profile| Login fails| √|			
+| 10 | All user play game at different levels| Game plays normally with no down grading of response time|Windows 98 failed|
+| 11 | All Users quit the game and restart| Require User name and password before allowing game play|Windows 98 failed|			
 
 ## Overall Test Status:
 This test case failed due to the inability of the Windows 98 PC to maintain connection during game play or login after quiting the game (no logout) and restarting.

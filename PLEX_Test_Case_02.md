@@ -2,10 +2,10 @@
 
 ## Test Details
 
-* Test Case ID: PLEX 001
-  * 001
+* Test Case ID: PLEX 002
+  * 002
 * Test Case Name:PLEX Story mode
-  * 001
+  * 002
 * Component: Build Mode Game Engine component
   * Test the Game Engine when in Story - single mode - no server
 * Test Case Designer:

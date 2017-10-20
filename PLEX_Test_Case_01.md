@@ -21,7 +21,7 @@
   2. Only the game engine can write to the main buffer
   3. Game engine will initialize all drivers necessary for user input
    a. Menu Driver - loads the correct menus at the appropriate time
-   b. Graphics Driver displayes game on the user's display
+   b. Graphics Driver displays game on the user's display
    c. Music Driver starts, plays and stops the music and sdjusts volume as required
    d. Timeer sarts and re-sets the game timer
    e. Dabase / Network driver

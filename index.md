@@ -29,6 +29,7 @@
 ## ➢ [Gunship III by PNTK](CritiqueGunshipIII.md) 20 Sept. 2017
 ## ➢ [X-Plane 11 by Laminar Research](Review X-Plane 11.md) 21 Sept. 2017
 ## ➢ [Time Glitch by bad.assets.games](TimeGlitch Test Review.md) 10 Oct. 2017
+## ➢ [For My Parents by Scott Free Games](Review_For_My_Parents.md) 21 Oct. 2017
 # Product Reviews
 ## ➢ [Heroku C(ontinous)I(ntegration)](Case Study Heroku.md) 22 Sept. 2017
 # Game Test Plans

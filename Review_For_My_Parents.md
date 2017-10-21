@@ -40,4 +40,8 @@ I consider the following a bug while other more experienced gamers would conside
 2.  The bunny did not always move in the direction expected according to the instructions.
 3.  Lack of explanation for the bars shown on the UI for the player
 # Final Thoughts
-One paragraph summary of your overall viewpoint of the game.
+I play tested this game in beta version and at the time I had two main complaints, the artwork, visual look and the avatar movement.  I found the artwork and visual appeal much improved and it fits the game world very well.  The movement while improved still leaves room for improvement.
+
+I found the puzzles ranged from easy to I did solve them.  As noted above I became frustrated when I could not implement my solution to test if it solved the puzzle.
+
+I honestly believe an intermediate gamer older than seven or eight would find this game fun and rewarding to play.

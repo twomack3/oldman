@@ -39,6 +39,7 @@ I consider the following a bug while other more experienced gamers would conside
 1.  Bunny animations seemed inconsistent, the same keyboard input did not always give the same animations or movement.
 2.  The bunny did not always move in the direction expected according to the instructions.
 3.  Lack of explanation for the bars shown on the UI for the player
+
 # Final Thoughts
 I play tested this game in beta version and at the time I had two main complaints, the artwork, visual look and the avatar movement.  I found the artwork and visual appeal much improved and it fits the game world very well.  The movement while improved still leaves room for improvement.
 

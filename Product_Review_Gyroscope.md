@@ -6,7 +6,7 @@ Gyroscope represents a game testing tool that not only tests the interface of yo
   1.  The AI can learn about individual players and tailor its action recommendations to the individual player and this 'tailoring' evolves during game plays, the AI get better.
   2.  This product got written in C# and uses standard interfaces to send commands (game action triggers) to the game.
       * Game controller inputs
-      * Ads (boo hiss)
+      * Ads (boo, hiss)
       * In-App purchases
       * Random number generators
       * Enemy difficulty calibration

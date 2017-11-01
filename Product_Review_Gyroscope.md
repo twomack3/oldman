@@ -2,7 +2,7 @@
 ### GyroscopeSoftware a small company started by Adam Fletcher (CEO) and Jonathan Mortensen (Chief Science Officer)
 ### Review of Gyroscope
 Gyroscope represents a game testing tool that not only tests the interface of your game from a player stand point in the game but uses AI learning to play it as a more advanced gamer would as they learn the game.
-* This product has 5 main features:
+#### This product has 5 main features:
 1.  The AI can learn about individual players and tailor its action recommendations to the individual player and this 'tailoring' evolves during game plays, the AI get better.
 2.  This product got written in C# and uses standard interfaces to send commands (game action triggers) to the game.
     1. Game controller inputs
@@ -11,6 +11,7 @@ Gyroscope represents a game testing tool that not only tests the interface of yo
     4. Random number generators
     5. Enemy difficulty calibration
     6. Boss encounter frequency
+    
 3.  Installs in Unity as a standard asset that you to list your actions (Test case steps)
 4.  Collects all event data required
 5.  Executes experiments behind the scenes and acts on what it learns (adaptive or learning AI)

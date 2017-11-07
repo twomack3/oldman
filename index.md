@@ -35,6 +35,7 @@
 # Product Reviews
 ## ➢ [Heroku C(ontinous)I(ntegration)](Case Study Heroku.md) 22 Sept. 2017
 ## ➢ [Gyroscope - automated games testing](Product_Review_Gyroscope.md) 31 Oct. 2017
+## ➢ [Badboy Tutorial]() 06 Nov. 2017
 # Game Test Plans
 ## ➢ [Test Plan for the game Fireball](Fireball Test Plan.md) 15 Oct. 2017
 # Game Test Cases

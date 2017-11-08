@@ -23,7 +23,6 @@
 ### ➢	Designed and installed the LAN integrate the flight simulator, “science experiments”  and Mission control software into one unified experience 
 ### ➢	Created and maintained software applications for a variety of businesses
 ### ➢	Recent experience with C++, C# (MS – Unity) and Python
-### ➢	Currently have a Secret Clearance and A+ and Sec+ certifications
 ### Visit [my reposirtory](Portfolio.md) for examples of my code in other languages
 # Game Reviews
 ## ➢ [Gunship III by PNTK](Review_GunshipIII.md) 20 Sept. 2017

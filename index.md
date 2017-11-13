@@ -6,24 +6,24 @@
 ### Email: TMackiii@icloud.com
 ## OBJECTIVE
 ### To use my skills, education and experience to perform the duties of a CAD Drafter /programmer in a highly competent and professional manner as a step to becoming a simulator architect/engineer.
-# Education
-## BSc. Colorado School of Mines - Geological Engineering
-## AAS. Nortwest Vista college (Expected May 2018)
 # What I have done
 ## MANAGEMENT EXPERIENCE
 ### ➢	Project manager for the creation of a “Space Shuttle” motion based simulator for a museum’s space camp program, 
-### ➢	Completed $100,000 projects on time and within the budget.
-### ➢	Managed the programming team that provided the Flight simulator and mission control software
-### ➢	Team lead that re-wrote a payment program for the rent-to-own industry
-### ➢	Managed the acquisition of reflection seismic data
+### ➢	Completed $100,000 plus projects on time and within the budget.
+### ➢	Managed the programming team that provided the Flight simulator and mission control software for a space camp program
+### ➢	Lead the team that re-wrote a payment program for the rent-to-own industry
+### ➢	Managed the acquisition and analysis of reflection seismic data
 ### ➢	Co-managed a 10 million dollar oil and gas exploration project
 ## TECHNICAL EXPERTISE
 ### ➢	Experience with AutoCad, 3DSMax, Maya and VectorWorks CAD software and Photoshop, Adobe Premier, Final Cut Pro video software
 ### ➢	Provided design and CAD drafting services for several projects
-### ➢	Designed and installed the LAN integrate the flight simulator, “science experiments”  and Mission control software into one unified experience 
+### ➢	Designed and installed a LAN that integrated a flight simulator, “science experiments”  and Mission control software into one unified experience 
 ### ➢	Created and maintained software applications for a variety of businesses
-### ➢	Recent experience with C++, C# (MS – Unity) and Python
+### ➢	Recent experience with Java, C++, C# (MS – Unity) and Python
 ### Visit [my reposirtory](Portfolio.md) for examples of my code in other languages
+# Education
+## BSc. Colorado School of Mines - Geological Engineering
+## AAS. Nortwest Vista college (Expected May 2018)
 # Game Reviews
 ## ➢ [Gunship III by PNTK](Review_GunshipIII.md) 20 Sept. 2017
 ## ➢ [X-Plane 11 by Laminar Research](Review X-Plane 11.md) 21 Sept. 2017

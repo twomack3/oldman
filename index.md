@@ -1,6 +1,6 @@
 # Hello
 ### Welcome fo the web page for Travis T. Womack III
-### This page tells a little about me, my experience and example of my work.
+### This page tells a little about me, my experience and shows some examples of my work.
 # About
 ## Contact Info:
 ### Email: TMackiii@icloud.com

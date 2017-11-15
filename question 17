@@ -1,0 +1,43 @@
+# Test Case 
+Knights vs. Zombies - Test 1
+## Test Details
+
+* Test Case ID: KvZ_TC_001
+* Test Case Name: Test Case 001
+  * TC_001
+* Component: 
+  * "Infinite Mode" button on the Main Menu
+* Test Case Designer:
+  * Travis Womack
+* Creation Date:
+  * 14, Nov. 2017
+* Modified By:
+  * Travis Woack
+* Modified Date:
+  * 14, Nov. 2017
+* Requirements Covered:
+ * Description 
+* Test Description/Purpose:
+ * Description 
+* Pre-Test Conditions: 
+ * The tested version will come from a version compiled on a PC with the Windows 7 Operating System as well as a Mac running OSX Lion.  The tested version will use the compiler included in the Eclipse (Indigo or Juno) integrated development environment (IDE).  We guarantee will operate in the same environment as tested - the only slight difference that the end user will not have the need to compile in order to run their game - they will just need version 6 or above of the JRE (Java runtime environment) which includes the JVM (Java virtual machine) which the finalized program needs to run.
+## Test Steps:
+| # | Description | Expected Result | Check (√) | 
+| --- | --- | --- | --- | 
+| 1 | Click on Infinite Mode Button  | Infinate Mode Level loades within 4 seconds | √ | 
+| 2 | | | | 
+| 3 | | | | 
+| 4 | | | | 
+| 5 | | | | 
+| 6 | | | | 
+| 7 | | | | 
+| 8 | | | | 
+| 9 | | | | 
+| 10 | | | |
+## Overall Test Status: 
+## Run History: 
+| # | Run Date | Run By | Results | 
+| --- | --- | --- | --- | 
+| 1 | | | | 
+| 2 | | | | 
+| 3 | | | |

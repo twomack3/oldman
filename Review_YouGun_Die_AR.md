@@ -18,9 +18,9 @@ The game offers a free "revival" if you send people the link and an invitation p
 ## Playability
 I found the game easy and fun to play, I liked the fact that you needed move around to survive and kill the blobs, I did have to watch out for for furniture, Legos and others while playing.
 
-I did wish for a higher rate of fire for the game (how fast can you tap), however; they have an in app purchase for that.  I played on a 13" iPad pro, which while give a good view of the blobs, the size made hard to tap the firing-target circle in the center of the screen.
+I did wish for a higher rate of fire for the game (how fast can you tap), however; they have an in app purchase for that.  I played on a 13" iPad pro, which while giving a good view of the blobs, the size made it hard to tap the firing-target circle in the center of the screen.
 
-I found the play very smooth and the view kept up with my movements, the blobs had an accurate size and sense of distance from the player, they only appeared at a distance if the view allowed it.  If the user backs up to a wall the enemy will only appear very close behind them (not a good idea I found), but further away in front of the player.  As you kill blobs, they come at you in ever increasing numbers and will swarm you from every direction, ducking and running will put them behind you so you can kill more of them, but the get you in the end.
+I found the play very smooth and the view kept up with my movements, the blobs had an accurate size and sense of distance from the player, they only appeared at a distance if the view allowed it.  If the user backs up to a wall the enemy will only appear very close behind them (not a good idea I found), but further away in front of the player.  As you kill blobs, they come at you in ever increasing numbers and will swarm you from every direction, ducking and running will put them behind you so you can kill more of them, but they get you in the end.
 
 ### Single/Multiplayer
 This game only exists as a single player version at the current time.

@@ -1,8 +1,9 @@
 # Information
 ## You Gun Die AR
 ## First Person Shooter, Augmented Reality Game
-## This app exists only for iOS devices, I tested it on an iOS version 11.1.2 on an iPad Pro 13", 
-## 5/5 (only 8 ratings) - no Metacritic rating yet.
+## This app exists only for iOS devices
+I tested it on an iOS version 11.1.2 on an iPad Pro 13", 
+## Rating: Family 12+, 5/5 (only 8 ratings) - no Metacritic rating yet.
 ## Publisher - nomtasticapps, LLC - sold on Apple App Store
 ## Developer - nomtasticapps
 ## Published 10-2017
@@ -10,7 +11,7 @@
 You Gun Die gives the player an augmented reality arcade first person shooter game, by using your phone or iPad to look around and shoot at an endless supply of enemies till one gets you (I had a high score of 10 without any power-ups).  In app power-up purchases include bombs, auto-fire modes and extras lives.  My wife had fun watching me run, duck, dodge and weave around the house while I tried to keep alive and kill the 'purple blobs'.
 
 # Game Play Summary
-Playing this game represents the height of simplicity: tap the target reticle (circle) on the screen on the phone or iPad to fire at what exits in the circle, dodge by running away, duck and weave from the white ghosts and purple blobs.  The floating blobs and ghosts show agains what ever the camera sees (in my case my living room).  Start the game and point the camera around the room or outside and choose either: play, Power-up store (for in app purchases) or High Scores (to see how you compare to others). Tap play turn and put the target reticle on the blobs and start tapping.  An oval at the bottom of the bottom of the screen show the enemy as purple dots in relation to you and which way you must face to kill them  Dots at the bottom of the oval represent enemies behind you.  You keep tapping, running, ducking, weaving and killing enemies until they kill you.  You cannot win. Then start again because your had some fun.
+Playing this game represents the height of simplicity: tap the target reticle (circle) on the screen on the phone or iPad to fire at what exits in the circle, dodge by running away, duck and weave from the white ghosts and purple blobs.  The floating blobs and ghosts show agains what ever the camera sees (in my case my living room).  Start the game and point the camera around the room or outside and choose either: play, Power-up store (for in app purchases) or High Scores (to see how you compare to others). Tap play turn and put the target reticle on the blobs and start tapping.  An oval at the bottom of the bottom of the screen show the enemy as purple dots in relation to you and which way you must face to kill them  Dots at the bottom of the oval represent enemies behind you.  You keep tapping, running, ducking, weaving and killing enemies until they kill you.  You cannot win. Then start again because your had fun.
 
 The game offers a free "revival" if you send people the link and an invitation play.
 

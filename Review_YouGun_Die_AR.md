@@ -5,8 +5,7 @@
 ## 5/5 (only 8 ratings) - no Metacritic rating yet.
 ## Publisher - nomtasticapps, LLC - sold on Apple App Store
 ## Developer - nomtasticapps
-## Publishing Date
-10-2017
+## Published 10-2017
 # Synopsis
 You Gun Die gives the player an augmented reality arcade first person shooter game, by using your phone or iPad to look around and shoot at an endless supply of enemies till one gets you (I had a high score of 10 without any power-ups).  In app power-up purchases include bombs, auto-fire modes and extras lives.  My wife had fun watching me run, duck, dodge and weave around the house while I tried to keep alive and kill the 'purple blobs'.
 

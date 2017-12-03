@@ -26,7 +26,7 @@
 ## AAS. Nortwest Vista college (Expected May 2018)
 # Game Reviews
 ## ➢ [Gunship III by PNTK](Review_GunshipIII.md) 20 Sept. 2017
-## ➢ [X-Plane 11 by Laminar Research](Review X-Plane 11.md) 21 Sept. 2017
+## ➢ [X-Plane 11 by Laminar Research](Review_X-Plane_11.md) 21 Sept. 2017
 ## ➢ [Time Glitch by bad.assets.games](Review_TimeGlitch.md) 10 Oct. 2017
 ## ➢ [For My Parents by Scott Free Games](Review_For_My_Parents.md) 21 Oct. 2017
 ## ➢ [Little Go](Review_Little_Go.md) 31 Oct. 2017

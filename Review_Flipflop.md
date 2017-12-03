@@ -13,7 +13,9 @@ This games based on clsssic Spider Solitaire has a few changes that change game 
 # Game Play Summary
 ## Playability
 To my pleasent surprise I found this game more fun than I expected, it has a very short and clear tutorial (so short that many first time players will not even recongnize it).  If you have played any version of solitaire on a tablet or phone you know how to use this app, it has no playability surprises, even those who have not played solitaire on a phone or tablet can figure out how to play by following the turtotial.
-The subtle change in the rules will make you think differently about tatics and stregy of play it took me a while to realize how this can help you win.  I even one that three suited version (took me a while), I have never had the ability (or luck) to win standard Spider solitaire with any thing more than two suites.
+
+The subtle change in the rules will make you think differently about tatics and stregy of play it took me a while to realize how this can help you win.  I even one that three suited version (took me a while), I have never had the ability (or luck) to win standard Spider solitaire with any thing more than two suits.
+
 The adds in the free version exist at a tolarable level and I will probably pay the three bucks to kill them and unlock the full game.  I found two bugs that detracted from me from giving this the highest rating: a 'sticky' card in one game, and I locked it up with mixing 'undos' and 'help'.  The bugs happened rarely (once each in all the time I tested it).  I did find that the free version I tested did drain the battery of my iPad Pro at rate much faster than my other version of Spider solitaire.
 ### Single player
 As the word 'Solitaire' suggest in the game title, use this to pass (waist) time.
@@ -22,6 +24,7 @@ I found the simple controls intuitive (standard basic iOS controls: tab, and fin
 
 # Bugs
 I found two bugs in my testing, unfortunatly; I could not duplicate them after they happened once m(other wise I would have filed a bug report).  The first bug concerns game locking-up when backing out a lot of moves using the 'undo' button, others have reported that when backing out a lot moves it will sometimes give a new hand from the deck.  I do a lot undos when I play but I only had the problem once.
+
 The other bug which happened once (I could not duplicate) concerns that at a position in the player stack I could not move a card to another position, cards placed after worked just fine and I could back out to clear the card at the position, but any card at this position remained stuck.  Restarting the game fixed the problem but gave me a 'Lost' game in my stats.
 # Final Thoughts
 OK, I found a new massive time waister, I will spend more time playing this game than I should.  I found the changes implemented in this version of solitaire while not appearing overly dramatic or original (they have great subtle originality) added welcome challenges to the game.  These changes allow me to play with more than two suits giving me more variety of game play and levels of difficuulty not so dependent on 'luck of the draw'.  I will pay the three bucks for the game.

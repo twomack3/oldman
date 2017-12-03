@@ -35,11 +35,11 @@
 ## ➢ [You Gun Die by nomtasticapps](Review_YouGun_Die_AR.md) 20 Nov. 2017
 ## ➢ [Flipflop by Zach Gage](Review_Flipflop.md) 3 Dec. 2017
 # Product Reviews
-## ➢ [Heroku C(ontinous)I(ntegration)](Case Study Heroku.md) 22 Sept. 2017
+## ➢ [Heroku C(ontinous)I(ntegration)](Case_Study_Heroku.md) 22 Sept. 2017
 ## ➢ [Gyroscope - automated games testing](Product_Review_Gyroscope.md) 31 Oct. 2017
 ## ➢ [Badboy Tutorial screen shot](Womack_Travis_Tutorial.PNG) and[ Badboy Tutorial file](TravisWomack.bx) 06 Nov. 2017
 # Game Test Plans
-## ➢ [Test Plan for the game Fireball](Fireball Test Plan.md) 15 Oct. 2017
+## ➢ [Test Plan for the game Fireball](Fireball_Test_Plan.md) 15 Oct. 2017
 # Game Test Cases
 ## ➢ [PLEX Test Case 01](PLEX_Test_Case_01.md) - Build mode
 ## ➢ [PLEX Test Case 02](PLEX_Test_Case_02.md) - Story mode

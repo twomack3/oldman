@@ -40,6 +40,7 @@
 ## ➢ [Badboy Tutorial screen shot](Womack_Travis_Tutorial.PNG) and[ Badboy Tutorial file](TravisWomack.bx) 06 Nov. 2017
 # Game Test Plans
 ## ➢ [Test Plan for the game Fireball](Fireball_Test_Plan.md) 15 Oct. 2017
+## ➢ [Test Plan for CyberBlitz](https://github.com/alamo-classes/2017FALL_GAME2338_TEAM_E/blob/master/Team_E_Final_Test_Report.md) 05 Nov. 2017
 # Game Test Cases
 ## ➢ [PLEX Test Case 01](PLEX_Test_Case_01.md) - Build mode
 ## ➢ [PLEX Test Case 02](PLEX_Test_Case_02.md) - Story mode
